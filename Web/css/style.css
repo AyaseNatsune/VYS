@@ -1,0 +1,81 @@
+@charset "utf-8";
+.we_r_vys{
+    width: 100%;
+}
+.vys_info{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+.vys_info_img{
+    width: 200px;
+    height: 200px;
+}
+.vys_info_text{
+    color: rgb(0, 0, 0);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.index_news{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.i_n_item{
+    width: 20%;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    animation-name:zoomOutAnime;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+}
+.i_n_item:hover{
+    animation-name:zoomInAnime;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+}
+.i_n_item:hover{
+    text-decoration: underline;
+}
+.i_n_img{
+    width: 100%;
+}
+.i_n_text{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.br_pc{
+    width: 100%;
+}
+.br_mobile{
+    width: 0;
+}
+.detail{
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.detail:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px){
+    .i_n_item{
+        width: 40%;
+    }
+    .br_pc{
+        width: 0;
+    }
+    .br_mobile{
+        width: 100%;
+    }
+}
