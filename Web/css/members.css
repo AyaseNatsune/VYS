@@ -76,4 +76,10 @@
         width: 40%;
         margin: 10px;
     }
+    .member_info{
+        flex-wrap: wrap;
+    }
+    .m_i_img{
+        width: 100%;
+    }
 }

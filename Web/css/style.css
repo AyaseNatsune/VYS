@@ -1,6 +1,9 @@
 @charset "utf-8";
-.we_r_vys{
+.index_top{
     width: 100%;
+}
+.index_top_mobile{
+    display: none;
 }
 .vys_info{
     padding: 10px;
@@ -69,6 +72,13 @@
     border-radius: 10px;
 }
 @media screen and (max-width: 768px){
+    .index_top{
+        display: none;
+    }
+    .index_top_mobile{
+        width: 100%;
+        display: block;
+    }
     .i_n_item{
         width: 40%;
     }
